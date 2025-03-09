@@ -1,0 +1,180 @@
+/* Professional styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../images/bg.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #2c3e50;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.custom-nav {
+    background-color: #3498db;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #3498db !important;
+    transform: none;
+}
+
+.profile-pic {
+    border: 4px solid #3498db;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profile-pic:hover {
+    transform: none;
+}
+
+.fun-title {
+    color: #2c3e50;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.fun-facts p {
+    background-color: rgba(248, 249, 250, 0.9);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+    border-left: 4px solid #3498db;
+    backdrop-filter: blur(5px);
+}
+
+.fun-facts p:hover {
+    transform: translateX(0);
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Project cards styling */
+.project-card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.project-card .card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.project-card .card-text {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* About page styling */
+.skill-badge {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Contact form styling */
+.form-control {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 2px rgba(52,152,219,0.2);
+    border-color: #3498db;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+/* Section headings */
+.display-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+/* Timeline styling */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline .fun-facts p {
+    border-left: 4px solid #3498db;
+    padding-left: 20px;
+    background-color: #ffffff;
+}
+
+/* Remove header styles we don't need */
+header {
+    background: none;
+    color: inherit;
+}
+
+/* Add a semi-transparent background to content sections */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    backdrop-filter: blur(5px);
+}
+  
